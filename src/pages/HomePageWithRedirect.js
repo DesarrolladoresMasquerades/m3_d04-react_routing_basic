@@ -8,14 +8,8 @@ const imgURL =
 function HomePageWithRedirect() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
 
-  if (!isLoggedIn) return <Redirect to="/error" />;
 
-  return (
-    <div>
-      <h1>Home - With Redirect</h1>
-      <img src={imgURL} alt="home gif" className="page-img" />
-    </div>
-  );
+  return (<div>Hello</div>);
 }
 
 export default HomePageWithRedirect;
